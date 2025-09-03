@@ -7,6 +7,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -45,8 +46,8 @@ export default function Home() {
           title="Tokenomics"
           description="Understanding how our token works in the ecosystem."
           kpiItems={[
-            {value: "100M", description: "Total Supply", icon: {}} ,
-            {value: "10K", description: "Liquidity", icon: {}} 
+            {value: "100M", description: "Total Supply", icon: ArrowRight},
+            {value: "10K", description: "Liquidity", icon: ArrowRight}
           ]}
         />
       </div>
