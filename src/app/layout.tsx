@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${interTight.variable} ${poppins.variable} antialiased`}
-      >
+      <body className={`${interTight.variable} ${poppins.variable} antialiased`}>
         {children}
       </body>
     </html>

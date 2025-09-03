@@ -13,7 +13,8 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: "slide" }}>
       <NavbarStyleMinimal
         logoSrc="/images/logo.svg"
-        logoAlt="NovaFlow"
+        logoWidth={100}
+        logoHeight={50}
         buttonText="Get Started"
         onButtonClick={() => { /* Implement your start function here */ }}
         className="fixed top-0 left-0 right-0 bg-transparent z-50"
@@ -44,8 +45,8 @@ export default function Home() {
           title="Tokenomics"
           description="Understanding how our token works in the ecosystem."
           kpiItems={[
-            {value: "100M", description: "Total Supply", icon: "LucideIcon"},
-            {value: "10K", description: "Liquidity", icon: "LucideIcon"}
+            {value: "100M", description: "Total Supply", icon: {}} ,
+            {value: "10K", description: "Liquidity", icon: {}} 
           ]}
         />
       </div>
